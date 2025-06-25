@@ -6,6 +6,8 @@
     flex-wrap: wrap;
     /* justify-content: space-around; */
     text-align: left;
+    width: 100% !important;
+    height: 100% !important;
   }
   
   .footer-section {
@@ -61,3 +63,18 @@ h3 {
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+:root {
+  --header-width: min(400px, 25vw);
+}
+
+.navBar {
+  width: var(--header-width);
+}
+
+/* @media (min-width: 769px) {
+  .homepage-content,
+  footer {
+    margin-left: var(--header-width);
+  }
+} */

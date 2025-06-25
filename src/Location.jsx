@@ -5,9 +5,14 @@ import Title from './components/Title';
 function Location() {
     return(
         <>
-            <Header />
+        <div className="container">
+        <div className="menu"><Header /></div>
+        <div className="content">
+            
             <Title titleName="Location"/>
-            <Footer />
+            <div className='footer'><Footer /></div>
+        </div>
+        </div>
         </>
     );
 }

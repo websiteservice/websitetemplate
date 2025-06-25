@@ -3,7 +3,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/elisasnails/',
+  // change here V
+  base: '/websitetemplate/',
   plugins: [react()],
   build: {
     rollupOptions: {

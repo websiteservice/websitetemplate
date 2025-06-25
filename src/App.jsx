@@ -12,7 +12,8 @@ function App() {
 
   return (
     <>
-      <Router basename='/elisasnails'>
+    {/* change this basename */}
+      <Router basename='/websitetemplate'>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/bookings" element={<Bookings />} />

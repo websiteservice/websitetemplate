@@ -9,35 +9,37 @@ import Footer from './components/Footer';
 function Homepage() {
   return (
     <>
-      <Header />
+    <div className="container">
+      <div className="menu"><Header /></div>
+      {/* <div className="content"> */}
+      <div className="content">
+      
+      <h1 className="Heading">Elisa's Nails</h1>
+      <section className="intro">
+      
+        {/* <img src={vanessaImg} className="headshotImg" alt="Vanessa" /> */}
 
-      <main className="homepage-content">
-        <h1 className="Heading">Elisa's Nails</h1>
+        <div className="bio">
+          <h2 className="name">Hi, I&apos;m Elisa!</h2>
+          <p className="description">
+            Nail tech based in Manukau, Auckland. I’m a dedicated nail artist who loves bringing creativity and elegance to every set of nails. From timeless classics to bold, custom designs, I’ll work with you to create nails that express your unique style.
+          </p>
+          <p className="description">
+            Every appointment is about more than just beautiful nails — it’s about quality, comfort, and self-care. I’m committed to maintaining high standards of hygiene and detail, and I can’t wait to help you fall in love with your nails.
+          </p>
 
-        <section className="intro">
-          {/* <img src={vanessaImg} className="headshotImg" alt="Vanessa" /> */}
+        </div>
+      </section>
 
-          <div className="bio">
-            <h2 className="name">Hi, I&apos;m Elisa!</h2>
-            <p className="description">
-              I'm a passionate nail artist based in Manukau, Auckland. I specialize in creating elegant, creative, and custom nail designs that reflect your unique style. 
-              Whether you're after a classic set, something trendy, or bold nail art, I'm here to bring your nail dreams to life.
-            </p>
-            <p className="description">
-              With a focus on quality, hygiene, and care, I ensure every appointment is a relaxing and rewarding experience. 
-              I can&apos;t wait to make your nails your new favourite accessory!
-            </p>
-          </div>
-        </section>
-
-        <section className="carousel-section">
-          <h2 className="gallery-heading">Gallery</h2>
-          
-          {/* <PhotoCarousel /> */}
-        </section>
-      </main>
-
-      <Footer />
+      <section className="carousel-section">
+        <h2 className="gallery-heading">Gallery</h2>
+        
+        {/* <PhotoCarousel /> */}
+      </section>
+      </div>  
+      {/* </div> */}
+      <div className='footer'><Footer /></div>
+    </div>
     </>
   );
 }

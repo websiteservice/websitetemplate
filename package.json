@@ -1,8 +1,8 @@
 {
-  "name": "elisasnails",
+  "name": "websitetemplate",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://websiteservice.github.io/elisasnails",
+  "homepage": "https://websiteservice.github.io/websitetemplate",
   "type": "module",
   "scripts": {
     "dev": "vite",
